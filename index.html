@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  
+    <h1 style="text-align: center ;"> Gallows Pole </h1>
+
+    <div class="enter__word">
+    <p> Enter Your Word</p>
+    </div>
+    
+   
+    <div class="make__word"> Make secret word </div>
+
+    <input type="text" class="input__make"/>
+
+    <button class="button__confirm"> Confirm </button>
+
+    <p class="guess__word hidden"> Guess secret word </p>
+
+    <input type="text" class="input__guess hidden"/>
+
+    <button class="button__check hidden"> Check </button>
+
+    <p class="secret__word hidden"> </p>
+
+    <div>
+    <canvas id="myCanvas" width="360" height="400" "></canvas>
+    <canvas id="myCanvasRoof" width="360" height="200" "></canvas>
+    </div>
+
+    <script src="script.js"> </script>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+body {
+  background-color: rgb(137, 150, 175);
+}
+
+.enter__word {
+  padding-top: 22px;
+  color: red;
+  font-size: 1cm;
+  text-align: center;
+}
+
+.make__word {
+  padding-top: 22px;
+  font-size: 1cm;
+  text-align: center;
+}
+
+.guess__word {
+  padding-top: 22px;
+  font-size: 1cm;
+  text-align: center;
+}
+
+.input__make {
+  padding-left: 1px;
+  margin-top: 60px;
+  margin-left: 653px;
+  padding-top: 22px;
+  font-size: 28px;
+}
+
+.input__guess {
+  padding-left: 1px;
+  margin-top: 60px;
+  margin-left: 653px;
+  padding-top: 22px;
+  font-size: 28px;
+}
+
+.hidden {
+  display: none;
+}
+
+.secret__word {
+  text-align: center;
+  font-size: 2cm;
+}
+
+#myCanvas {
+  border: 1px solid black;
+  margin-left: 55px;
+  margin-top: 15px;
+  position: absolute;
+  top: 400px;
+}
+
+#myCanvasRoof {
+  margin-left: 55px;
+  margin-top: 15px;
+  position: absolute;
+  top: 200px;
+}
